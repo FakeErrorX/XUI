@@ -1,11 +1,3 @@
-[English](/README.md)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/XUI-dark.png">
-    <img alt="XUI" src="./media/XUI-light.png">
-  </picture>
-</p>
 
 [![](https://img.shields.io/github/v/release/fakeerrorx/xui.svg?style=for-the-badge)](https://github.com/FakeErrorX/XUI/releases)
 [![](https://img.shields.io/github/actions/workflow/status/fakeerrorx/xui/release.yml.svg?style=for-the-badge)](https://github.com/FakeErrorX/XUI/actions)
