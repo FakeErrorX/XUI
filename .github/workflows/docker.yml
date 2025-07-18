@@ -19,7 +19,7 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          hsanaeii/XUI
+          fakeerrorx/xui
           ghcr.io/fakeerrorx/xui
         tags: |
           type=ref,event=branch
