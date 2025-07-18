@@ -38,23 +38,23 @@ func GetGeoipPath() string {
 }
 
 func GetIPLimitLogPath() string {
-	return config.GetLogFolder() + "/3xipl.log"
+	return config.GetLogFolder() + "/xipl.log"
 }
 
 func GetIPLimitBannedLogPath() string {
-	return config.GetLogFolder() + "/3xipl-banned.log"
+	return config.GetLogFolder() + "/xipl-banned.log"
 }
 
 func GetIPLimitBannedPrevLogPath() string {
-	return config.GetLogFolder() + "/3xipl-banned.prev.log"
+	return config.GetLogFolder() + "/xipl-banned.prev.log"
 }
 
 func GetAccessPersistentLogPath() string {
-	return config.GetLogFolder() + "/3xipl-ap.log"
+	return config.GetLogFolder() + "/xipl-ap.log"
 }
 
 func GetAccessPersistentPrevLogPath() string {
-	return config.GetLogFolder() + "/3xipl-ap.prev.log"
+	return config.GetLogFolder() + "/xipl-ap.prev.log"
 }
 
 func GetAccessLogPath() (string, error) {
