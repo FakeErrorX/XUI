@@ -382,8 +382,7 @@
 "proxyAndServer" = "Proxy and Server"
 "intervals" = "Intervals"
 "information" = "Information"
-"language" = "Language"
-"telegramBotLanguage" = "Telegram Bot Language"
+
 
 [pages.xray]
 "title" = "Xray Configs"

@@ -37,7 +37,7 @@ type AllSetting struct {
 	TgBotBackup                 bool   `json:"tgBotBackup" form:"tgBotBackup"`
 	TgBotLoginNotify            bool   `json:"tgBotLoginNotify" form:"tgBotLoginNotify"`
 	TgCpu                       int    `json:"tgCpu" form:"tgCpu"`
-	TgLang                      string `json:"tgLang" form:"tgLang"`
+
 	TimeLocation                string `json:"timeLocation" form:"timeLocation"`
 	TwoFactorEnable				bool   `json:"twoFactorEnable" form:"twoFactorEnable"`
 	TwoFactorToken				string `json:"twoFactorToken" form:"twoFactorToken"`

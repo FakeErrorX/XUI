@@ -26,11 +26,9 @@ const (
 	Web I18nType = "web"
 )
 
-type SettingService interface {
-	GetTgLang() (string, error)
-}
 
-func InitLocalizer(i18nFS embed.FS, settingService SettingService) error {
+
+func InitLocalizer(i18nFS embed.FS) error {
 	// set default bundle to english
 	i18nBundle = i18n.NewBundle(language.MustParse("en-US"))
 	i18nBundle.RegisterUnmarshalFunc("toml", toml.Unmarshal)
@@ -40,10 +38,9 @@ func InitLocalizer(i18nFS embed.FS, settingService SettingService) error {
 		return err
 	}
 
-	// setup bot locale
-	if err := initTGBotLocalizer(settingService); err != nil {
-		return err
-	}
+	// Initialize localizers for web and bot
+	LocalizerWeb = i18n.NewLocalizer(i18nBundle, "en-US")
+	LocalizerBot = i18n.NewLocalizer(i18nBundle, "en-US")
 
 	return nil
 }
@@ -90,27 +87,12 @@ func I18n(i18nType I18nType, key string, params ...string) string {
 	return msg
 }
 
-func initTGBotLocalizer(settingService SettingService) error {
-	botLang, err := settingService.GetTgLang()
-	if err != nil {
-		return err
-	}
 
-	LocalizerBot = i18n.NewLocalizer(i18nBundle, botLang)
-	return nil
-}
 
 func LocalizerMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		var lang string
-
-		if cookie, err := c.Request.Cookie("lang"); err == nil {
-			lang = cookie.Value
-		} else {
-			lang = c.GetHeader("Accept-Language")
-		}
-
-		LocalizerWeb = i18n.NewLocalizer(i18nBundle, lang)
+		// Always use English
+		LocalizerWeb = i18n.NewLocalizer(i18nBundle, "en-US")
 
 		c.Set("localizer", LocalizerWeb)
 		c.Set("I18n", I18n)

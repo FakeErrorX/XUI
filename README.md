@@ -1,4 +1,4 @@
-[English](/README.md) | [فارسی](/README.fa_IR.md) | [العربية](/README.ar_EG.md) |  [中文](/README.zh_CN.md) | [Español](/README.es_ES.md) | [Русский](/README.ru_RU.md)
+[English](/README.md)
 
 <p align="center">
   <picture>
@@ -26,31 +26,7 @@ As an enhanced fork of the original X-UI project, XUI provides improved stabilit
 bash <(curl -Ls https://raw.githubusercontent.com/fakeerrorx/xui/master/install.sh)
 ```
 
-For full documentation, please visit the [project Wiki](https://github.com/FakeErrorX/XUI/wiki).
-
-## A Special Thanks to
-
-- [alireza0](https://github.com/alireza0/)
-
-## Acknowledgment
-
-- [Iran v2ray rules](https://github.com/chocolate4u/Iran-v2ray-rules) (License: **GPL-3.0**): _Enhanced v2ray/xray and v2ray/xray-clients routing rules with built-in Iranian domains and a focus on security and adblocking._
-- [Russia v2ray rules](https://github.com/runetfreedom/russia-v2ray-rules-dat) (License: **GPL-3.0**): _This repository contains automatically updated V2Ray routing rules based on data on blocked domains and addresses in Russia._
 
 ## Support project
 
 **If this project is helpful to you, you may wish to give it a**:star2:
-
-<p align="left">
-  <a href="https://buymeacoffee.com/mhsanaei" target="_blank">
-    <img src="./media/buymeacoffe.png" alt="Image">
-  </a>
-</p>
-
-- USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
-- MATIC (polygon): `0x41C9548675D044c6Bfb425786C765bc37427256A`
-- LTC (Litecoin): `ltc1q2ach7x6d2zq0n4l0t4zl7d7xe2s6fs7a3vspwv`
-
-## Stargazers over Time
-
-[![Stargazers over time](https://starchart.cc/FakeErrorX/XUI.svg?variant=adaptive)](https://starchart.cc/FakeErrorX/XUI)

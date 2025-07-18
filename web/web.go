@@ -192,7 +192,7 @@ func (s *Server) initRouter() (*gin.Engine, error) {
 	})
 
 	// init i18n
-	err = locale.InitLocalizer(i18nFS, &s.settingService)
+	err = locale.InitLocalizer(i18nFS)
 	if err != nil {
 		return nil, err
 	}
