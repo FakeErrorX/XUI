@@ -2,31 +2,31 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
-    <img alt="3x-ui" src="./media/3x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/XUI-dark.png">
+    <img alt="XUI" src="./media/XUI-light.png">
   </picture>
 </p>
 
-[![](https://img.shields.io/github/v/release/mhsanaei/3x-ui.svg?style=for-the-badge)](https://github.com/MHSanaei/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/mhsanaei/3x-ui/release.yml.svg?style=for-the-badge)](https://github.com/MHSanaei/3x-ui/actions)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/mhsanaei/3x-ui.svg?style=for-the-badge)](#)
-[![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg?style=for-the-badge)](https://github.com/MHSanaei/3x-ui/releases/latest)
+[![](https://img.shields.io/github/v/release/fakeerrorx/xui.svg?style=for-the-badge)](https://github.com/FakeErrorX/XUI/releases)
+[![](https://img.shields.io/github/actions/workflow/status/fakeerrorx/xui/release.yml.svg?style=for-the-badge)](https://github.com/FakeErrorX/XUI/actions)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/fakeerrorx/xui.svg?style=for-the-badge)](#)
+[![Downloads](https://img.shields.io/github/downloads/fakeerrorx/xui/total.svg?style=for-the-badge)](https://github.com/FakeErrorX/XUI/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-**3X-UI** — продвинутая панель управления с открытым исходным кодом на основе веб-интерфейса, разработанная для управления сервером Xray-core. Предоставляет удобный интерфейс для настройки и мониторинга различных VPN и прокси-протоколов.
+**XUI** — продвинутая панель управления с открытым исходным кодом на основе веб-интерфейса, разработанная для управления сервером Xray-core. Предоставляет удобный интерфейс для настройки и мониторинга различных VPN и прокси-протоколов.
 
 > [!IMPORTANT]
 > Этот проект предназначен только для личного использования, пожалуйста, не используйте его в незаконных целях и в производственной среде.
 
-Как улучшенная версия оригинального проекта X-UI, 3X-UI обеспечивает повышенную стабильность, более широкую поддержку протоколов и дополнительные функции.
+Как улучшенная версия оригинального проекта X-UI, XUI обеспечивает повышенную стабильность, более широкую поддержку протоколов и дополнительные функции.
 
 ## Быстрый старт
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/fakeerrorx/xui/master/install.sh)
 ```
 
-Полную документацию смотрите в [вики проекта](https://github.com/MHSanaei/3x-ui/wiki).
+Полную документацию смотрите в [вики проекта](https://github.com/FakeErrorX/XUI/wiki).
 
 ## Особая благодарность
 
@@ -53,4 +53,4 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 
 ## Звезды с течением времени
 
-[![Stargazers over time](https://starchart.cc/MHSanaei/3x-ui.svg?variant=adaptive)](https://starchart.cc/MHSanaei/3x-ui) 
+[![Stargazers over time](https://starchart.cc/FakeErrorX/XUI.svg?variant=adaptive)](https://starchart.cc/FakeErrorX/XUI) 

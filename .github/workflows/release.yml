@@ -1,4 +1,4 @@
-name: Release 3X-UI
+name: Release XUI
 
 on:
   workflow_dispatch:
@@ -59,7 +59,7 @@ jobs:
             sudo apt install gcc-s390x-linux-gnu
           fi
 
-      - name: Build 3x-ui
+      - name: Build XUI
         run: |
           export CGO_ENABLED=1
           export GOOS=linux
